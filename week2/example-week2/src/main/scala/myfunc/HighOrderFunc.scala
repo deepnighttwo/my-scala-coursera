@@ -29,10 +29,12 @@ object HighOrderFunc {
     def sumT1(f: Int => Int): (Int, Int) => (Int, Int) => Int = {
       def si1(a: Int, b: Int): (Int, Int) => Int = {
         def si2(c: Int, d: Int): Int = {
-          9
+          c + d
         }
+
         si2
       }
+
       si1
     }
 
