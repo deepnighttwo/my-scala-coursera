@@ -30,5 +30,10 @@ object FixPoint {
     math.abs((x - y) / x) < 0.000001
   }
 
+  type myfunctype = Int=>Boolean
+
+  def testfunc(f:myfunctype):myfunctype={
+
+  }
 
 }
